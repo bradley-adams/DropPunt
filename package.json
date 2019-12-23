@@ -6,6 +6,7 @@
   "author": "Bradley Adams <bradley.wayne.adams@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "knew": "^0.0.0",
     "sqlite3": "^4.1.1"
