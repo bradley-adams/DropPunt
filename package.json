@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/bradley-adams/DropPunt.git",
   "author": "Bradley Adams <bradley.wayne.adams@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express-handlebars": "^3.1.0",
+    "knew": "^0.0.0",
+    "sqlite3": "^4.1.1"
+  }
 }
