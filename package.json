@@ -1,0 +1,8 @@
+{
+  "name": "DropPunt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bradley-adams/DropPunt.git",
+  "author": "Bradley Adams <bradley.wayne.adams@gmail.com>",
+  "license": "MIT"
+}
