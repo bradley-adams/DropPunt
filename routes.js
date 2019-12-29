@@ -9,7 +9,7 @@ router.get('/', (req,res)=>{
 
 router.get('/users', (req,res)=>{
   dbFunctions.getUsers().then((users)=>{
-    res.render('users', {users:users})
+    res.render('users', {layout: false, users:users})
   })
 })
 
