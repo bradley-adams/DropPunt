@@ -7,7 +7,11 @@ function getUsers() {
   return db('users').select()
 }
 
+function getUser(id) {
+  return db('users').where('id', id).select().first()
+}
 
 module.exports = {
-  getUsers
+  getUsers,
+  getUser
 } 
