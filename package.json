@@ -1,20 +1,17 @@
 {
-  "name": "DropPunt",
+  "name": "w3-knex-forms",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/bradley-adams/DropPunt.git",
-  "author": "Bradley Adams <bradley.wayne.adams@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon index",
     "start": "node index"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "knew": "^0.0.0",
-    "knex": "^0.20.4",
-    "nodemon": "^2.0.2",
-    "sqlite3": "^4.1.1"
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "knex": "^0.14.6",
+    "nodemon": "^1.17.5",
+    "sqlite3": "^4.0.0"
   }
 }
