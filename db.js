@@ -9,7 +9,7 @@ function getUsers() {
 
 function getUser(id) {
   return db('users').where('id', id).select().first()
-}
+} 
 
 module.exports = {
   getUsers,
