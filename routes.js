@@ -34,7 +34,6 @@ router.post('/users/create', (req,res)=>{
 router.get('/users/:id', (req,res)=>{
   let id = req.params.id
   dbFunctions.getUserWithProfile(id).then((user)=>{
-    console.log(user)
     res.render('user', user)
   })
 })
